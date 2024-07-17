@@ -16,6 +16,6 @@ class postTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("1"));
+                .body("data", equalTo("some data"));
     }
 }
